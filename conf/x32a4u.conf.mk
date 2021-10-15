@@ -132,7 +132,7 @@ ENTER_PIN_PUEN        = 1
 
 # ENTER_DELAY
 ENTER_BLINK_COUNT     = 3
-ENTER_BLINK_WAIT      = 30000
+ENTER_BLINK_WAIT      = 10000
 
 # ENTER_UART
 #ENTER_UART_NEED_SYNC = yes
@@ -161,8 +161,8 @@ LED_INV               = 1
 
 # UART
 # Select BAUD rate, port name, and UART number
-UART_BAUD_RATE        = 115200
-UART_PORT_NAME        = C
+UART_BAUD_RATE        = 57600
+UART_PORT_NAME        = E
 UART_NUMBER           = 0
 UART_RX_PUEN          = yes
 UART_REMAP            = no
